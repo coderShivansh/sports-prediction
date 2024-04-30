@@ -1,12 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
+import './style_carousel.css';
 
 export default function Carousel() {
   return (
     <Main>
-        <div id='cricket' className='maindiv'>
+        <div id='cricket' className='outer-container'>
 
-        <p id='pp'>What Do We Have For You <i className="fa-solid fa-arrow-right"></i></p>
+        <p id='head-content'>What Do We Have For You <i className="fa-solid fa-arrow-right"></i></p>
         <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel" >
   <div className="carousel-indicators"  >
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -53,7 +54,7 @@ export default function Carousel() {
 const Main=styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
 
-.maindiv{
+/* .maindiv{
     
     width: 980px;
     height: 500px;
@@ -70,13 +71,13 @@ img{
 }
 #pp{
     font-size: 40px;
-    /* font-family: "Jersey 10"; */
+    
     font-weight: 400;
     font-style: normal;
     font-family: "bavro";
-}
+} */
 /* Responsiveness */
-@media (max-width:830px){
+/* @media (max-width:830px){
     .maindiv{
         width: auto;
         padding-right: 1rem;
@@ -89,11 +90,11 @@ img{
   .maindiv{
     width: auto;
   }
-}
+} */
 
 /* animation */
 
-.maindiv{
+/* .maindiv{
     animation: transIn 8s;
     
 }
@@ -107,7 +108,7 @@ img{
         opacity: 1;
         transform: rotateX(0deg);
     } 
-}
+} */
 
 
 `

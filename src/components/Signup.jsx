@@ -233,6 +233,7 @@ form .input-box span.details{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: -1.5rem;
     }
  form .button input:hover{
   /* transform: scale(0.99); */
@@ -243,6 +244,12 @@ form .input-box span.details{
    .container{
     max-width: 100%;
     text-align: center;
+  }
+  .con1{
+    margin-top: 1.7rem;
+  }
+  .con1 .title{
+    margin-left: -2.2rem;
   }
   .arrow a{
     float: left;

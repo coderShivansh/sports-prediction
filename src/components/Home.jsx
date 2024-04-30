@@ -76,11 +76,9 @@ const Main=styled.div`
     outline: none;  
     color: white;
     transition: 0.1s ease;
-    // font-family: "bavro";
     font-family: "bavro";
     font-weight: 400;
     font-style: normal;
-
     margin-top: 7rem;
 }
 .content button{
@@ -149,7 +147,6 @@ const Main=styled.div`
 @media (max-width:830px){
     .maindiv{
         width: auto;
-        
         margin-right: 1rem;
     }
     .maindiv .content{

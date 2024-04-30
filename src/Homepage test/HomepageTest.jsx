@@ -67,7 +67,7 @@ const HomepageTest = () => {
             <div className='match-tile-status'>LIVE</div>
           </div>
           <div className='match-tile-middle'>
-<div className='match-tile-team'>
+          <div className='match-tile-team'>
               <div className='match-tile-team-logo'><img src={assets.icons.cavaliers} alt='Cavaliers'/></div>
               <div className='match-tile-number'>
                 <div className='match-tile-team-score'>59</div>

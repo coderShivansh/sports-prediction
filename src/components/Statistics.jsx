@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import './style_statistics.css'
 export default function Statistics() {
   return (
     <Main>
@@ -42,7 +42,7 @@ export default function Statistics() {
  const Main=styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
 
- .maindiv{
+ /* .maindiv{
     width: 940px;
     margin-left: 19px;
     margin-top: 7rem;
@@ -86,5 +86,5 @@ export default function Statistics() {
     width: auto;
     
   }
-}
+} */
  `

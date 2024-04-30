@@ -99,7 +99,7 @@ const Main = styled.div`
         display: flex;
         gap: 1.6rem;
         margin-top: 0.8rem;
-        margin-left: 70px;
+        margin-left: 50px;
         align-items: center;
     }
 
@@ -122,7 +122,7 @@ const Main = styled.div`
         transition: scale 0.2s ease;
     }
     .login_btn{
-        margin-left: 10rem;
+        margin-left: 6rem;
     }
     .action_btn:hover {
         transform: scale(1.05);

@@ -7,9 +7,11 @@ export default function Login1() {
       <Main>
       <div className='maindiv' style={{color:"white"}}>
         <div className="container">
-        <div className='arrow'>
+        <span className='arrow'>
+          
             <Link to='/'>Back</Link>
-            </div> 
+          
+            </span> 
         <div className='con1'>
         <div className="title">Login</div>
       </div>
@@ -57,10 +59,14 @@ export default function Login1() {
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
   }
+  .con1{
+    margin-top: -1.5rem;
+  }
   .arrow a {
     width: 50px;
     height:50px;
     color: white; 
+    
   }
   .con1{
         display: flex;
@@ -219,6 +225,12 @@ export default function Login1() {
    .container{
     max-width: 100%;
     text-align: center;
+  }
+  .con1{
+    margin-top: -0.1rem;
+  }
+  .con1 .title{
+    margin-left: -3.2rem;
   }
   .arrow a{
     float: left;

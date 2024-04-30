@@ -1,0 +1,252 @@
+
+.homepage-nav-tab{
+display: flex;
+padding: 8px 16px;
+justify-content: center;
+align-items: center;
+gap: 4px;
+color: #fff;
+border-radius: 999px;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.24px;
+height: fit-content;
+flex-grow: 1;
+}
+
+.homepage-nav-dropdown:hover, .homepage-nav-tab:hover {
+    background: #4f4f4f;
+    color: #fff;
+    text-decoration: none;
+  }
+
+.homepage-nav-tabactive{
+    background: #FFF;
+    color: #000;
+}
+
+
+.homepage-nav-tabs{
+display: flex;
+padding: 4px;
+align-items: center;
+justify-content: center;
+gap: 4px;
+border-radius: 999px;
+border: 1px solid #FFF;
+background: #252525;
+height: fit-content;
+flex-wrap: nowrap;
+}
+
+.homepage-nav-tab, .homepage-nav-dropdown {
+    cursor: pointer;
+  }
+
+.homepage-nav{
+display: flex;
+padding: 10px;
+flex-direction: row;
+align-items: flex-start;
+gap: 8px;
+align-self: stretch;
+background-color: black;
+}
+
+
+.homepage{
+display: flex;
+width: 100%;
+height: 832px;
+padding: 0px 57px;
+flex-direction: column;
+align-items: flex-start;
+gap: 21px;
+background-color: black;
+}
+
+.homepage-nav-dropdown{
+    display: flex;
+padding: 12px 20px;
+justify-content: center;
+align-items: center;
+gap: 4px;
+border-radius: 999px;
+border: 1px solid #FFF;
+background: #252525;
+color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+
+.hidden-select{
+    display: none;
+}
+
+.homepage-match-grid{
+    display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+align-content: flex-start;
+gap: 24px;
+row-gap: 24px;
+align-self: stretch;
+flex-wrap: wrap;
+
+}
+
+.homepage-match-tile{
+    display: flex;
+width: 380px;
+padding: 12px;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+border-radius: 16px;
+background: #252525;
+box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.06);
+}
+
+.homepage-match-tile:hover {
+    background-color: #5D5D5D;
+  }
+
+  
+.match-tile-top{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+}
+
+.match-tile-timeline{
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.24px;
+}
+
+.match-tile-status{
+    display: flex;
+padding: 6px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 999px;
+background: #FFF;
+color: #000;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.24px;
+}
+
+.match-tile-middle{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+align-self: stretch;
+}
+
+.match-tile-team{
+    display: flex;
+    padding: 0px 36px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.match-tile-bottom, .homepage-match-tile {
+    cursor: pointer;
+  }
+
+.match-tile-team-logo img{
+    width: 100%;
+}
+
+.match-tile-team-logo{
+    width: 44px;
+}
+
+.match-tile-number{
+    display: flex;
+align-items: center;
+gap: 12px;
+}
+
+.match-tile-team-score{
+    color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+
+.match-tile-team-winrate{
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+
+.match-tile-bottom{
+    color: #FFF;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.24px;
+text-decoration-line: underline;
+}
+
+
+
+@media (max-width: 768px) { /* Add this media query to apply styles for viewports smaller than 768px */
+    .homepage-nav-tabs {
+      flex-wrap: wrap; /* Change this line to allow the tabs to wrap to the next line */
+    }
+  
+    .homepage-nav-dropdown {
+      display: flex;
+      padding: 12px 20px;
+      justify-content: center;
+      align-items: center;
+      gap: 4px;
+      border-radius: 999px;
+      border: 1px solid #FFF;
+      background: #252525;
+      color: #FFF;
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.28px;
+      order: 1; /* Add this line to make the dropdown appear before the tabs */
+      flex-grow: 1; /* Add this line to make the dropdown fill the available space */
+    }
+  
+    .homepage-nav-tab {
+      order: 2; /* Add this line to make the tabs appear after the dropdown */
+      flex-grow: 0; /* Add this line to make the tabs not fill the available space */
+    }
+  }

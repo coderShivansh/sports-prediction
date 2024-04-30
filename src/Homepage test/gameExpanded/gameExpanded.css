@@ -1,0 +1,599 @@
+.gameExpanded {
+    display: flex;
+    width: 100vw;
+    padding: 0px 120px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.gameExpanded-header {
+    display: flex;
+align-items: flex-start;
+gap: 36px;
+align-self: stretch;
+}
+
+.gameExpanded-header-content {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+flex: 1 0 0;
+}
+
+.gameExpanded-header-content-heading {
+    align-self: stretch;
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+
+.gameExpanded-header-content-body {
+    align-self: stretch;
+    color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.42px;
+}
+
+.gameExpanded-header-buttons {
+    display: flex;
+align-items: flex-start;
+gap: 6px;
+}
+
+.gameExpanded-header-button {
+    display: flex;
+width:fit-content;
+padding: 8px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 999px;
+background: #FFF;
+}
+
+.gameExpanded-header-button img{
+    width: 28px;
+}
+
+.gameExpanded-banner {
+    display: flex;
+    padding: 20px 28px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 24px;
+background: #252525;
+}
+
+.gameExpanded-banner-header {
+    display: flex;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+
+}
+
+.gameExpanded-banner-header-time {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.24px;
+
+}
+
+.gameExpanded-banner-header-title{
+    color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+
+.gameExpanded-banner-header-status {
+    display: flex;
+    padding: 6px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 999px;
+background: #FFF;
+color: #000;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.24px;
+}
+
+.gameExpanded-banner-mid {
+    display: flex;
+padding: 0px 44px;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+
+}
+
+.gameExpanded-banner-team {
+    display: flex;
+    width: 160px;
+    height: 160px;
+    padding: 3.2px;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2px;
+}
+
+.gameExpanded-banner-team img{
+    width: 100%;
+}
+
+.gameExpanded-banner-scores {
+    color: #FFF;
+font-family: Inter;
+font-size: 44px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.88px;
+}
+
+.gameExpanded-banner-bottom {
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+align-self: stretch;
+}
+
+
+
+
+
+.gameExpanded-boxtable {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.gameExpanded-boxtable-header {
+    display: flex;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+}
+
+.gameExpanded-boxtable-header-text {
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.4px;
+}
+
+.gameExpanded-boxtable-header-tabs {
+    display: flex;
+padding: 4px;
+align-items: flex-start;
+gap: 4px;
+border-radius: 999px;
+border: 1px solid #FFF;
+background: #252525;
+color: #FFF;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.24px;
+}
+
+
+.tab-active{
+    background: #fff;
+color: #000;
+}
+
+.gameExpanded-boxtable-header-tab {
+    display: flex;
+padding: 6px 16px;
+justify-content: center;
+align-items: center;
+gap: 4px;
+border-radius: 999px;
+}
+
+.gameExpanded-boxtable-container {
+    height: 640px;
+    align-self: stretch;
+    border-radius: 24px;
+background: #252525;
+}
+
+
+
+.gameExpanded-bet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 24px;
+background: #252525; 
+}
+
+.gameExpanded-bet-upper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    padding: 12px;
+    align-self: stretch;
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+
+.gameExpanded-bet-lower {
+    display: flex;
+    width: 240px;
+    height: auto;
+    gap: 8px;
+    padding: 8px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 0px 24px 24px;
+border-top: 1px solid #000;
+background: #252525;
+}
+
+.gameExpanded-bet-teams{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+
+}
+
+.gameExpanded-bet-team {
+    display: flex;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.6); /* Adjust opacity here */
+    background: rgba(0, 0, 0, 0.2); /* Adjust opacity here */
+    width: 60px;
+    cursor: pointer;
+}
+
+.gameExpanded-bet-team:hover{
+    background: #4f4f4f;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.gameExpanded-bet-team img{
+    width: 100%;
+}
+
+
+.gameExpanded-bet-value {
+    display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+gap: 8px;
+align-self: stretch;
+}
+
+.gameExpanded-bet-predefined-value {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 8px 4px;
+    align-self: stretch;
+    flex-wrap: wrap;
+    
+}
+
+.gameExpanded-bet-predefined-value-type {
+    display: flex;
+    height: 30px;
+    padding: 4px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+border: 1px solid rgba(255, 255, 255, 0.60);
+color: rgba(255, 255, 255, 0.60);
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.24px;
+cursor: pointer;
+}
+
+
+.selected{
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.gameExpanded-bet-custom-value {
+        /* Reset default styles */
+        border: none;
+        outline: none;
+        background-color: transparent;
+        /* Add your custom styles */
+        /* For example: */
+        border-bottom: 1px solid black;
+        padding: 5px; /* Adjust padding as needed */
+        font-size: 16px; /* Adjust font size as needed */
+        color: #333; /* Adjust text color as needed */
+    display: flex;
+padding: 12px 12px;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+border-radius: 4px;
+border: 1px solid rgba(255, 255, 255, 0.60);
+color: #FFF;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.24px;
+}
+
+
+.gameExpanded-bet-confirm-bttn:hover{
+    border: 1px solid white ;
+    background-color: #000;
+    color: white;
+
+}
+
+a{
+    color: #FFF;
+font-weight: 700;
+}
+
+.gameExpanded-bet-confirm-bttn {
+    cursor: pointer;
+    box-sizing: border-box;
+    display: flex;
+padding: 12px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+border-radius: 999px;
+background: #FFF;
+color: #000;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+
+
+
+.game-navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    color: #fff;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+
+
+.navbar-logo{
+    background-color: #252525;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar-logo a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-logo:hover{
+    background: #4f4f4f;
+    color: #fff;
+    text-decoration: none;
+}
+
+.gameExpanded-bet-predefined-value-type:hover{
+    background: #4f4f4f;
+    color: #fff;
+    text-decoration: none;
+}
+
+.user-balance{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.user-wallet-overlay{
+    right: 120px;
+    top: 120px;
+    position: absolute;
+    display: flex;
+    width: 280px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 24px;
+border: 1px solid #FFF;
+background: #000;
+box-shadow: 2px 2px 4px 0px rgba(255, 255, 255, 0.25);
+}
+
+.user-balance img{
+    width: 20px;
+}
+
+.user-wallet-balance{
+    width: 100%;
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+align-self: stretch;
+}
+
+.user-wallet-and-balance{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-wallet-balance-placeholder{
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.24px;
+margin-right: 5px;
+flex-direction: column;
+
+}
+
+.user-wallet-balance-amount{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+
+.user-wallet-transaction-container{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.24px;
+
+}
+
+.user-wallet-transaction-list{
+    display: flex;
+padding: 12px;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+align-self: stretch;
+border-radius: 12px;
+background: #252525;
+}
+
+.user-wallet-transaction{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+}
+
+.user-wallet-transaction-amount{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-decoration-line: none;
+    align-self: flex-start;
+}
+
+.user-wallet-transaction-brief{
+    color: #FFF;
+font-family: Inter;
+font-size: 12px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.24px;
+text-decoration-line: none;
+
+}
+
+.user-wallet-transaction-separator{
+    border: 0.4px solid rgba(255, 255, 255, 0.60);
+    width: 100%;
+}
+
+
+.gameExpanded-header-content-body{
+    line-height: 1.6;
+}
